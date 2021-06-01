@@ -50,6 +50,21 @@ footer {
   clear: both;
 }
 
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid grey;
+  padding: 10px 0px;
+}
+
+ul.clfooter li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮️ ";
+}
+
 #leftbar, #rightbar {
   width: 25%;
 }
@@ -69,6 +84,34 @@ footer {
 #topban h2 {
   text-align: center;
 }
+
+td {
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.cal {
+  border-collapse: collapse;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.cal a {
+  font-weight: bold;
+  color: green;
+}
+.cal .past {
+  cursor: not-allowed;
+}
+
+.today a {
+  background-color: darkviolet;
+  color: whitesmoke;
+}
+
+
+
+
+
 
 
 #logo {
